@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Amazon POC TestSuite" preserve-order="true"> 
+
+<!-- Listeners are added to get ReportNG and screenshots for failed test cases  -->	
+<listeners>
+<listener class-name="com.amazon.bangalore.projectselenium.listeners.Screen"></listener>
+<listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+<listener class-name="com.amazon.bangalore.projectselenium.listeners.PriorityInterceptor" />
+</listeners>
+
+ 	 <test verbose="2" name="Login Feature" preserve-order="true">
+	   	<groups>
+			<run>
+				<include name="sanity"></include>
+			</run>
+	  	</groups>
+	    <classes> 
+    		<class name="com.amazon.bangalore.projectselenium.feature1.LoginFeatureTest"/>
+	    </classes>
+    </test>
+    
+     <test verbose="2" name="Place order" preserve-order="true">
+	   	<groups>
+			<run>
+				<include name="sanity"></include>
+			</run>
+	  	</groups>
+	    <classes>
+    		<class name="com.amazon.bangalore.projectselenium.feature2.PlaceOrderFeatureTest"/>
+    		<class name="com.amazon.bangalore.projectselenium.feature2.PlaceOrderWithExcelDataFeatureTest"/>
+	    </classes>
+    </test>
+    
+
+</suite>

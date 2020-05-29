@@ -1,0 +1,65 @@
+[10-May-2020 19:53:28 IST]  INFO - Test suite initialisation and execution started successfully at: Sun May 10 19:53:28 IST 2020
+[10-May-2020 19:53:28 IST]  INFO - Login Feature--Test Feature/SubFeature Execution Started
+[10-May-2020 19:53:31 IST]  INFO - Started <chrome> browser successfully
+[10-May-2020 19:53:31 IST]  INFO - testAmazonEndToEndPlaceOrder--Test method started
+[10-May-2020 19:53:56 IST]  INFO - Screenshot captured for Test : testAmazonEndToEndPlaceOrder
+[10-May-2020 19:53:56 IST]  INFO - File Name: C:\Users\gviswamitra\EclipseProjects\projectselenium/target/surefire-reports/html/screenshots/testAmazonEndToEndPlaceOrder.png
+[10-May-2020 19:53:56 IST]  INFO - Local mode
+[10-May-2020 19:53:56 IST]  INFO - FAILED : Capturing of failure screenshot successfully for testAmazonEndToEndPlaceOrder method
+[10-May-2020 19:53:57 IST]  INFO - Login Feature--Test Feature/SubFeature Execution Ended
+
+[10-May-2020 19:53:57 IST]  INFO - Place order--Test Feature/SubFeature Execution Started
+[10-May-2020 19:54:00 IST]  INFO - Started <chrome> browser successfully
+[10-May-2020 19:54:00 IST]  INFO - testLoginAndthenPlaceOrder--Test method started
+[10-May-2020 19:54:25 IST]  INFO - Screenshot captured for Test : testLoginAndthenPlaceOrder
+[10-May-2020 19:54:25 IST]  INFO - File Name: C:\Users\gviswamitra\EclipseProjects\projectselenium/target/surefire-reports/html/screenshots/testLoginAndthenPlaceOrder.png
+[10-May-2020 19:54:25 IST]  INFO - Local mode
+[10-May-2020 19:54:25 IST]  INFO - FAILED : Capturing of failure screenshot successfully for testLoginAndthenPlaceOrder method
+[10-May-2020 19:54:29 IST]  INFO - Started <chrome> browser successfully
+[10-May-2020 19:54:29 IST]  INFO - testPlaceOrderAndThenLogin--Test method started
+[10-May-2020 19:54:31 IST]  INFO - elementSize: 6
+[10-May-2020 19:54:31 IST]  INFO - allTExt: autobiography of a yogi english
+[10-May-2020 19:54:31 IST]  INFO - allTExt: in Books
+[10-May-2020 19:54:31 IST]  INFO - allTExt: autobiography of a yogi english book
+[10-May-2020 19:54:31 IST]  INFO - allTExt: autobiography of a yogi english hardcover
+[10-May-2020 19:54:31 IST]  INFO - allTExt: autobiography of a yogi english original
+[10-May-2020 19:54:31 IST]  INFO - allTExt: autobiography of a yogi english kindle
+[10-May-2020 19:54:34 IST]  INFO - elementSize: 20
+[10-May-2020 19:54:34 IST]  INFO - allTExt: Autobiography of a Yogi (Complete Paperback Edition)
+[10-May-2020 19:54:34 IST]  INFO - Successfully clicked on selected item: Autobiography of a Yogi (Complete Paperback Edition)
+[10-May-2020 19:54:39 IST]  INFO - parentWinHandle CDwindow-2FA6DD59D443C7CEAACBE3DAA3524B65
+[10-May-2020 19:54:45 IST]  INFO - Switched to new window successfully
+[10-May-2020 19:54:48 IST]  INFO - clicked on kindle format
+[10-May-2020 19:55:14 IST]  INFO - Screenshot captured for Test : testPlaceOrderAndThenLogin
+[10-May-2020 19:55:14 IST]  INFO - File Name: C:\Users\gviswamitra\EclipseProjects\projectselenium/target/surefire-reports/html/screenshots/testPlaceOrderAndThenLogin.png
+[10-May-2020 19:55:14 IST]  INFO - Local mode
+[10-May-2020 19:55:14 IST]  INFO - FAILED : Capturing of failure screenshot successfully for testPlaceOrderAndThenLogin method
+[10-May-2020 19:55:18 IST]  INFO - Started <chrome> browser successfully
+[10-May-2020 19:55:18 IST]  INFO - testLoginAndthenPlaceOrder--Test method started
+[10-May-2020 19:55:43 IST]  INFO - Screenshot captured for Test : testLoginAndthenPlaceOrder
+[10-May-2020 19:55:43 IST]  INFO - File Name: C:\Users\gviswamitra\EclipseProjects\projectselenium/target/surefire-reports/html/screenshots/testLoginAndthenPlaceOrder.png
+[10-May-2020 19:55:43 IST]  INFO - Local mode
+[10-May-2020 19:55:43 IST]  INFO - FAILED : Capturing of failure screenshot successfully for testLoginAndthenPlaceOrder method
+[10-May-2020 19:55:47 IST]  INFO - Started <chrome> browser successfully
+[10-May-2020 19:55:47 IST]  INFO - testPlaceOrderAndThenLogin--Test method started
+[10-May-2020 19:55:49 IST]  INFO - elementSize: 6
+[10-May-2020 19:55:49 IST]  INFO - allTExt: autobiography of a yogi english
+[10-May-2020 19:55:49 IST]  INFO - allTExt: in Books
+[10-May-2020 19:55:49 IST]  INFO - allTExt: autobiography of a yogi english book
+[10-May-2020 19:55:49 IST]  INFO - allTExt: autobiography of a yogi english hardcover
+[10-May-2020 19:55:49 IST]  INFO - allTExt: autobiography of a yogi english original
+[10-May-2020 19:55:49 IST]  INFO - allTExt: autobiography of a yogi english kindle
+[10-May-2020 19:55:51 IST]  INFO - elementSize: 24
+[10-May-2020 19:55:51 IST]  INFO - allTExt: Autobiography of a Yogi (Complete Paperback Edition)
+[10-May-2020 19:55:51 IST]  INFO - Successfully clicked on selected item: Autobiography of a Yogi (Complete Paperback Edition)
+[10-May-2020 19:55:56 IST]  INFO - parentWinHandle CDwindow-854DE036575125A3456A92EA131C0955
+[10-May-2020 19:56:02 IST]  INFO - Switched to new window successfully
+[10-May-2020 19:56:05 IST]  INFO - clicked on kindle format
+[10-May-2020 19:56:30 IST]  INFO - Screenshot captured for Test : testPlaceOrderAndThenLogin
+[10-May-2020 19:56:30 IST]  INFO - File Name: C:\Users\gviswamitra\EclipseProjects\projectselenium/target/surefire-reports/html/screenshots/testPlaceOrderAndThenLogin.png
+[10-May-2020 19:56:30 IST]  INFO - Local mode
+[10-May-2020 19:56:30 IST]  INFO - FAILED : Capturing of failure screenshot successfully for testPlaceOrderAndThenLogin method
+[10-May-2020 19:56:31 IST]  INFO - Place order--Test Feature/SubFeature Execution Ended
+
+[10-May-2020 19:56:31 IST]  INFO - Test Suite Execution Ended at: Sun May 10 19:56:31 IST 2020
+[10-May-2020 19:56:31 IST]  INFO - Total Time taken to execute entire test suite: 0 hours, 3 minutes, 3 seconds

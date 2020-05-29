@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Amazon POC TestSuite]">
+  <listeners>
+    <listener class-name="com.amazon.bangalore.projectselenium.listeners.Screen"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="com.amazon.bangalore.projectselenium.listeners.PriorityInterceptor"/>
+  </listeners>
+  <test name="Login Feature(failed)">
+    <groups>
+      <run>
+        <include name="sanity"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.amazon.bangalore.projectselenium.feature2.PlaceOrderFeatureTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="endSuite"/>
+          <include name="initSuite"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.amazon.bangalore.projectselenium.feature2.PlaceOrderFeatureTest -->
+      <class name="com.amazon.bangalore.projectselenium.feature2.PlaceOrderWithExcelDataFeatureTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.amazon.bangalore.projectselenium.feature2.PlaceOrderWithExcelDataFeatureTest -->
+      <class name="com.amazon.bangalore.projectselenium.feature1.LoginFeatureTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="beforeMethod"/>
+          <include name="testAmazonEndToEndPlaceOrder"/>
+        </methods>
+      </class> <!-- com.amazon.bangalore.projectselenium.feature1.LoginFeatureTest -->
+    </classes>
+  </test> <!-- Login Feature(failed) -->
+  <test name="Place order(failed)">
+    <groups>
+      <run>
+        <include name="sanity"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.amazon.bangalore.projectselenium.feature2.PlaceOrderFeatureTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="testPlaceOrderAndThenLogin"/>
+          <include name="tearDown"/>
+          <include name="endSuite"/>
+          <include name="initSuite"/>
+          <include name="beforeMethod"/>
+          <include name="testLoginAndthenPlaceOrder"/>
+        </methods>
+      </class> <!-- com.amazon.bangalore.projectselenium.feature2.PlaceOrderFeatureTest -->
+      <class name="com.amazon.bangalore.projectselenium.feature2.PlaceOrderWithExcelDataFeatureTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="testPlaceOrderAndThenLogin"/>
+          <include name="tearDown"/>
+          <include name="testLoginAndthenPlaceOrder"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.amazon.bangalore.projectselenium.feature2.PlaceOrderWithExcelDataFeatureTest -->
+      <class name="com.amazon.bangalore.projectselenium.feature1.LoginFeatureTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.amazon.bangalore.projectselenium.feature1.LoginFeatureTest -->
+    </classes>
+  </test> <!-- Place order(failed) -->
+</suite> <!-- Failed suite [Amazon POC TestSuite] -->
